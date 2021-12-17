@@ -1,0 +1,81 @@
+.resimSlider {
+    height: 600px;
+}
+
+body{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.hakkimizda{
+    background-color: #f2f2f2;
+}
+
+.ayrac{
+    border: none;
+    border-top: 3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.ibeyaz{
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid white;
+    background-color: white;
+}
+.igri{
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.galeriCard>img:hover{
+    opacity: 0.8;
+
+}
+
+.iletisim{
+    background-color: #f2f2f2;
+}
+.brand{
+    color: red;
+}
+.fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 2px;
+    border-radius: 50%;
+
+    
+    color: #ffce54;
+}
+.image{
+    position: relative;
+    width: 100%; /* for IE 6*/
+}
+h1 {
+    position: absolute;
+    top: 310px;
+    left: 36%;
+    width: 100%;
+}
+h1 span{
+    color: #fff;
+    font: bold 50px/75px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+
+    padding: 10px;
+}
+h1 span b{
+    color: red;
+}
