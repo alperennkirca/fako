@@ -1,7 +1,6 @@
 .resimSlider {
     height: 600px;
 }
-
 body{
     padding-top: 50px;
     font-family: 'Raleway', sans-serif;
@@ -26,6 +25,7 @@ body{
     font-size: 40px;
     border: 10px solid white;
     background-color: white;
+    
 }
 .igri{
     color: #343a40;
@@ -59,6 +59,10 @@ body{
     
     color: #ffce54;
 }
+.fa:hover{
+    color: #fff;
+
+}
 .image{
     position: relative;
     width: 100%; /* for IE 6*/
@@ -79,3 +83,18 @@ h1 span{
 h1 span b{
     color: red;
 }
+
+#backtotop{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+        #backtotop i{
+            color:#fb6537;
+            font-size: 45px;
+            transition: color 0.6 s;
+        }
+        #backtotop i:hover{
+            color: #c83204;
+        }
+
